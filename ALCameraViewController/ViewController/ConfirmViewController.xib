@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -27,7 +28,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="464"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ASf-ZD-cIs">
-                    <rect key="frame" x="20" y="484" width="64" height="64"/>
+                    <rect key="frame" x="236" y="484" width="64" height="64"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="64" id="J7n-mn-Ebe"/>
                         <constraint firstAttribute="width" constant="64" id="YWt-e6-Bvy"/>
@@ -35,7 +36,7 @@
                     <state key="normal" image="confirmButton"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yRi-ES-LfN">
-                    <rect key="frame" x="236" y="484" width="64" height="64"/>
+                    <rect key="frame" x="20" y="484" width="64" height="64"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="64" id="FdJ-mW-Tx6"/>
                         <constraint firstAttribute="width" constant="64" id="urS-JS-i1S"/>
@@ -45,7 +46,7 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="ASf-ZD-cIs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="1AT-7k-2QI"/>
+                <constraint firstItem="ASf-ZD-cIs" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" constant="-20" id="1AT-7k-2QI"/>
                 <constraint firstAttribute="trailing" secondItem="oUR-U3-uEM" secondAttribute="trailing" id="7A6-HH-MEu"/>
                 <constraint firstAttribute="bottom" secondItem="yRi-ES-LfN" secondAttribute="bottom" constant="20" id="7jo-lC-34t"/>
                 <constraint firstItem="ASf-ZD-cIs" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-45" id="89L-rE-rmd"/>
@@ -58,7 +59,7 @@
                 <constraint firstAttribute="bottom" secondItem="yRi-ES-LfN" secondAttribute="bottom" constant="60" id="H4a-3r-r5r"/>
                 <constraint firstItem="oUR-U3-uEM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="J3N-Vr-euu"/>
                 <constraint firstAttribute="trailing" secondItem="KYd-D9-K5d" secondAttribute="trailing" id="JLk-PT-5kn"/>
-                <constraint firstAttribute="trailing" secondItem="yRi-ES-LfN" secondAttribute="trailing" constant="20" id="M7P-T7-qoy"/>
+                <constraint firstAttribute="leading" secondItem="yRi-ES-LfN" secondAttribute="leading" constant="-20" id="M7P-T7-qoy"/>
                 <constraint firstItem="ASf-ZD-cIs" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="Rwi-4K-QRb"/>
                 <constraint firstItem="ASf-ZD-cIs" firstAttribute="bottom" secondItem="yRi-ES-LfN" secondAttribute="top" constant="-60" id="TLl-L0-yLb"/>
                 <constraint firstAttribute="trailing" secondItem="KYd-D9-K5d" secondAttribute="trailing" id="YBv-2a-KdQ"/>
