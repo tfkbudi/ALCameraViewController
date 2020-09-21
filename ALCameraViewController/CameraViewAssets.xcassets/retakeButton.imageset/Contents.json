@@ -1,23 +1,23 @@
 {
   "images" : [
     {
+      "filename" : "icon_x_44x44.png",
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "retakeButton.png"
+      "scale" : "1x"
     },
     {
+      "filename" : "icon_x_88x88.png",
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "retakeButton@2x.png"
+      "scale" : "2x"
     },
     {
+      "filename" : "icon_x_132x132.png",
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "retakeButton@3x.png"
+      "scale" : "3x"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }
